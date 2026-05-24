@@ -1,23 +1,69 @@
-💻 Project: Laptop Price Prediction
+# 💻 Laptop Price Prediction using Machine Learning
 
-In this project, I built a machine learning model that predicts laptop prices based on different specifications such as company, RAM, processor type, storage, display features, and more.
+## 📌 Project Overview
+This project is a Machine Learning web application that predicts laptop prices based on different hardware and software specifications. Users can enter laptop details such as brand, RAM, processor, storage, GPU, and display features to get an estimated laptop price instantly.
 
-Unlike my previous ML projects (which were only model-based), this is my first project where I deployed the model into a web application, making it interactive and user-friendly.
+The application is developed using Python and deployed with Streamlit for an interactive user experience.
 
-🔍 Key Highlights:
+---
 
-Built using Linear Regression
-Performed data preprocessing, encoding & scaling
-Created a fully interactive Streamlit web app
-Real-time prediction based on user input
-Converted ML model into a usable application
+## 🚀 Features
+- Real-time laptop price prediction
+- Interactive Streamlit web application
+- Data preprocessing and feature engineering
+- Machine Learning model training and evaluation
+- User-friendly interface
+- Supports multiple laptop specifications
 
-🛠️ Tech Stack:
-Python | Pandas | Scikit-learn | Streamlit | Pickle
+---
 
-📌 What I learned from this project:
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Pickle
 
-How to deploy ML models into real-world applications
-How Streamlit helps in building quick ML web apps
-Importance of UI/UX in machine learning projects
-End-to-end workflow from training → deployment
+---
+
+## 📊 Machine Learning Workflow
+1. Data Collection  
+2. Data Cleaning  
+3. Exploratory Data Analysis (EDA)  
+4. Feature Engineering  
+5. Model Training  
+6. Model Evaluation  
+7. Deployment using Streamlit  
+
+---
+
+## 📥 Input Features
+The model predicts laptop prices using:
+- Brand/Company
+- Laptop Type
+- RAM
+- Weight
+- Touchscreen
+- IPS Display
+- Screen Size
+- Screen Resolution
+- CPU
+- HDD
+- SSD
+- GPU
+- Operating System
+
+---
+
+## 📂 Project Structure
+
+```bash
+Laptop_Price_Prediction/
+│
+├── app.py
+├── pipe.pkl
+├── df.pkl
+├── requirements.txt
+├── README.md
+└── notebooks/

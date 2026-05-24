@@ -56,14 +56,3 @@ The model predicts laptop prices using:
 
 ---
 
-## 📂 Project Structure
-
-```bash
-Laptop_Price_Prediction/
-│
-├── app.py
-├── pipe.pkl
-├── df.pkl
-├── requirements.txt
-├── README.md
-└── notebooks/
